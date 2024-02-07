@@ -9,5 +9,5 @@ urlpatterns = [
     path('register/', register_page, name='register'),
     path('custom_logout_page/', custom_logout, name='logout'),
     path('', editor, name='editor'),
-    path('delete_document/<int:docid>/', delete_document, name='delete'),
+    path('delete_document/<int:docid>/', delete_documents, name='delete'),
 ]
