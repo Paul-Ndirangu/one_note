@@ -44,9 +44,8 @@ def editor(request):
 
 	return render(request, 'editor.html', context)
 
+
 # create delete notes page
-
-
 @login_required(login_url='/login/')
 def delete_document(request, docid):
 	document = Document.objects.get(pk=docid)

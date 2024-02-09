@@ -11,5 +11,4 @@ class Document(models.Model):
     
     class Meta:
         ordering = ('title',)
-        
-    
+           
